@@ -4,8 +4,7 @@ from base_caching import BaseCaching
 
 
 class BasicCache(BaseCaching):
-    """ Class that inherits from BaseCaching and is a caching system
-        This caching system doesn’t have limit """
+    """ Create a class BasicCache that inherits from BaseCaching and is a caching system """
     def put(self, key, item):
         """ Assign to the dictionary """
         if key and item:
